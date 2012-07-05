@@ -1,0 +1,15 @@
+
+We spin a wheel that retuns a value with a particular probability
+distribution. What's the expected number of spins before we
+equal or exceed a target value?
+
+roulette_unform.py - uniform [0,1] distribution
+
+Theoretical results are e^x spins for the target x with 0 <= x <=1,
+2*target+2/3 as x gets large. The remainder approaches the
+distribution 2*(1-x) with 0 <= x <=1.
+
+roulette_exponential.py - exponential distribution with lambda=1
+
+Theoretical results are x+1 spins for the target x as x gets large;
+the remainder approaches the same exponential distribution.

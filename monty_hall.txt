@@ -1,0 +1,3 @@
+
+A basic simulation of the Monty Hall problem. Does a simulation
+with the standard 3 door problem and also a 10 door version.
